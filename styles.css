@@ -1,196 +1,196 @@
 @font-face {
-    font-family: norse-bold;
-    src: url(fonts/Norse-Bold.otf);
+  font-family: norse-bold;
+  src: url(fonts/Norse-Bold.otf);
 }
 
-
-#main-image {
-    width: 500px;
-    height: 100vh;
-    object-fit: cover;
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-body,
-html {
-    height: 100vh;
-}
-
-.image-area {
-    position: relative;
-}
-
-.odin-logo {
-    width: 20%;
-    height: auto;
-}
-
-.image-text {
-    font-size: 86px;
-}
-
-.photo-heading {
-    font-family: norse-bold;
-    position: absolute;
-    top: 25%;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    /* optional background for readability */
-    padding: 1rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.photo-subtitle {
-    position: absolute;
-    top: 97%;
-    left: 0%;
-    width: 100%;
-    text-align: center;
-    color: rgb(223, 223, 223);
-    font-size: 0.8rem;
-}
-
-.photo-subtitle a,{
-    color: rgb(223, 223, 223);
-    text-decoration: underline;
-    font-weight: lighter;
-}
-
-a:link {
-    text-decoration: none;
-    color: #596D48;
-    font-weight: bold;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    text-decoration: underline;
+html,
+body {
+  height: 100vh;
+  margin: 0;
 }
 
 body {
-    display: flex;
-    background-color: black;
-    justify-content: center;
-    margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  font-family:
+    "Nunito",
+    "Roboto",
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    sans-serif;
 }
-
 
 .container {
-    display: flex;
-    width: 1440px;
-    height: 100%;
-    background-color: rgb(243, 243, 243);
-
+  display: flex;
+  width: 1440px;
+  height: 100%;
+  background-color: rgb(243, 243, 243);
 }
 
-
-.account-link-container {
-    padding-left: 50px;
+.image-area {
+  position: relative;
 }
 
-input {
-    border: 1px solid #6d6d6d44;
-    margin-bottom: 15px;
-    padding: 5px 20px 5px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-    outline: none;
-    transition: border-color 0.3s, box-shadow 0.3s;
+#main-image {
+  width: 500px;
+  height: 100vh;
+  object-fit: cover;
 }
 
-input:required:invalid:focus {
-    border: 2px solid red;
+.odin-logo {
+  width: 20%;
+  height: auto;
 }
 
-input::placeholder {
-    color: #999;
-    font-style: italic;
+.image-text {
+  font-size: 86px;
 }
 
-input:focus {
-    border-color: #4a90e2;
-    box-shadow: 0 0 5px rgba(74, 144, 226, 0.7);
+.photo-heading {
+  font-family: norse-bold;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-label {
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #333;
+.photo-subtitle {
+  position: absolute;
+  top: 97%;
+  left: 0%;
+  width: 100%;
+  text-align: center;
+  color: rgb(223, 223, 223);
+  font-size: 0.8rem;
 }
 
-.form-row {
-    display: flex;
-    gap: 5rem;
+.photo-subtitle a {
+  color: rgb(223, 223, 223);
+  text-decoration: underline;
+  font-weight: lighter;
 }
 
-.sign-up-form {
-    background-color: white;
-    border: 0px solid white;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.11);
+a:link {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: bold;
 }
 
-button {
-    margin: 40px;
-    background-color: #596D48;
-    /* modern indigo */
-    color: white;
-    padding: 0.9rem 3rem;
-    border: none;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    font-family: inherit;
-    cursor: pointer;
-    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+a:visited {
+  text-decoration: none;
 }
 
-button:hover {
-    background-color: #4338ca;
-    /* slightly darker on hover */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+a:hover {
+  text-decoration: underline;
 }
 
-button:active {
-    background-color: #3730a3;
-}
-
-.form-header-text {
-    font-size: 20px;
-    font-weight: 900;
-    padding: 15px 0 0 30px;
-}
-
-.form-fields {
-    padding: 10px 30px 10px 30px;
-
+a:active {
+  text-decoration: underline;
 }
 
 .main-form {
-    display: flex;
-    flex-direction: column;
-
-
+  display: flex;
+  flex-direction: column;
 }
 
 .form-detail-text {
-    padding: 150px 180px 50px 50px;
-    font-size: 23px;
-    font-weight: bold;
+  padding: 150px 180px 50px 50px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.account-link-container {
+  padding-left: 50px;
+}
+
+input {
+  border: 1px solid #6d6d6d44;
+  margin-bottom: 15px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+}
+
+input:required:invalid:focus {
+  border: 2px solid red;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.7);
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.form-row {
+  display: flex;
+  gap: 5rem;
+}
+
+.sign-up-form {
+  background-color: white;
+  border: 0;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.11);
+}
+
+button {
+  margin: 40px;
+  background-color: #596d48;
+  color: white;
+  padding: 0.9rem 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+button:hover {
+  background-color: #4338ca;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  background-color: #3730a3;
+}
+
+.form-header-text {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 15px 0 0 30px;
+}
+
+.form-fields {
+  padding: 10px 30px;
 }
