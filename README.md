@@ -1,14 +1,16 @@
-## Library
+## README
 
-A browser-based library app built as part of [The Odin Project](https://www.theodinproject.com/) JavaScript curriculum.
+## Sign-Up Form
 
-Users can add, remove, and track books dynamically through a form-based interface. The project focuses on object constructors (or classes), array management, and DOM interaction.
+A responsive sign-up form built as part of [The Odin Project](https://www.theodinproject.com/) Intermediate HTML & CSS curriculum.
+
+This project focuses on semantic HTML structure, form validation, and modern CSS layout techniques to create a clean and user-friendly registration interface.
 
 ### Tech
 
-* HTML
-* CSS
-* JavaScript (objects, constructors/classes, DOM manipulation)
+* HTML (semantic form elements)
+* CSS (Flexbox, layout, styling)
+* Basic client-side validation
 
 Built as part of:
-[The Odin Project – JavaScript: Library](https://www.theodinproject.com/lessons/node-path-javascript-library)
+[The Odin Project – Intermediate HTML and CSS: Sign-Up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
